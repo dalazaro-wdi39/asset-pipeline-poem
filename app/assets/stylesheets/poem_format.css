@@ -1,0 +1,9 @@
+span:hover {
+  text-decoration: underline;
+}
+span:hover:before {
+  content: attr(data-line-number);
+}
+span:not(:first-of-type) {
+  color: gray;
+}
